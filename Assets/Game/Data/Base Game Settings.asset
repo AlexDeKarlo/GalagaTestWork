@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99e5e2ee1a0a4945ad2a7657bfc683e, type: 3}
+  m_Name: Base Game Settings
+  m_EditorClassIdentifier: 
+  KillsToWinRange:
+    min: 3
+    max: 10
+  SpawnCooldonwRange:
+    min: 1
+    max: 5
+  EnemySpeedRange:
+    min: 1
+    max: 5
+  EnemyHealh: 3
+  PlayerShootRange: 1.5
+  PlayerShootSpeed: 3
+  PlayerDamage: 1
+  BulletSpeed: 10
+  BulletCooldown: 0.5
+  PlayerSpeed: 3
+  PlayerHealth: 5
